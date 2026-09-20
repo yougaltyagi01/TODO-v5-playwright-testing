@@ -44,7 +44,7 @@ npm test
 
 Jest runs the feature tests together with the unit tests.
 
-3. End-to-End Testing with Playwright
+3. End-to-End Testing with Playwright:
 Playwright tests the application from the user's point of view in a real browser.
 todo.spec.js
 The Playwright tests verify complete user workflows such as:
@@ -56,7 +56,7 @@ These tests make sure that the frontend, backend, and browser interaction work t
 Playwright Command
 npx playwright test
 
-What This Project Demonstrates
+What This Project Demonstrates:
 This automated testing project demonstrates how to test a web application at multiple levels:
 Unit testing checks whether individual pieces of code work correctly.
 Feature testing checks whether related application components work correctly together.
