@@ -5,7 +5,7 @@ Unit Testing → Feature Testing → End-to-End Testing with Playwright
 
 The purpose of this testing setup is to verify the Todo App at different levels, starting from individual functions and middleware and ending with complete user interactions in a real browser.
 
-1. Unit Testing
+1. Unit Testing: 
 Unit tests check small individual parts of the application separately.
 
 validateTodo.test.js
@@ -16,7 +16,7 @@ Valid Todo text is accepted and next() is called.
 Missing or empty Todo text returns a 400 response.
 The correct error message is returned: Task is required.
 
-cache.test.js
+cache.test.js: 
 This test checks the caching middleware.
 It verifies:
 A request produces a cache miss when data is not already cached.
